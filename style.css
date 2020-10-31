@@ -1,0 +1,97 @@
+body{
+	background-color: #fafafa;
+}
+main{
+	display: flex;
+	justify-content: space-around;
+}
+a{
+	text-decoration: none;
+}
+.left{
+	margin-left: 15%;
+
+}
+.left img{
+	height: 618px;
+}
+.left img:hover{
+	transform: scale(1.1);
+	transition: 0.6s;
+}
+
+.login-box{
+	border: 1px solid #dbdbdb;
+	background-color: #fff;
+	margin-top: 60px;
+	margin-right: 100px;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    border-radius: 1px;
+}
+.login-box h1{
+	padding: 20px 0;
+	font-size: 35px;
+
+}
+.input-box{
+	padding: 10px;
+
+}
+.input-box input{
+	width: 80%;
+	margin: 0 0 15px;
+	padding: 7px;
+	background-color: #fafafa;
+	border: 1px solid #dbdbdb;
+	border-radius: 2px;
+	font-size: 12px;
+}
+.input-box .login{
+	background-color: #0FA3F4;
+	color: #fff;
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+}
+.login-box p{
+	font-size: 18px;
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	
+}
+.login-fb {
+	font-size: 15px ;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	color: #385185;
+}
+
+.signin{
+	border: 1px solid #dbdbdb;
+	background-color: #fff;
+	margin-top: 15px;
+	margin-right: 100px;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    border-radius: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.app{
+	text-align: center;
+	margin-right: 15%;
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+@media (max-width:700px){
+	.left{
+		display: none;
+	}
+	.right{
+		margin-left: 6%
+	}
+}
